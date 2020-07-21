@@ -8,7 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "grpc": "^1.24.2",
+    "grpc-web": "^1.0.7",
+    "lodash": "^4.17.15",
+    "reactrpc": "^1.0.5",
+    "google-protobuf": "^3.11.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +22,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "ignorePatterns": [
+      "**/*_pb.js"
+    ]
   },
   "browserslist": {
     "production": [
