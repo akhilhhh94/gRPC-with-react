@@ -2,7 +2,7 @@
 Simple `hello world` implementation
 
  We need proxy server for gRPC implementation. Here we use [envoyproxy](https://www.envoyproxy.io/) for it.
-
+#### create your own `_pb.js` from `.proto` by following [this steps](https://github.com/oslabs-beta/ReactRPC)
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
